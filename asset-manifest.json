@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/eventify/static/css/main.698ca5b8.css",
+    "main.js": "/eventify/static/js/main.3b6fc5bc.js",
+    "static/js/787.686086aa.chunk.js": "/eventify/static/js/787.686086aa.chunk.js",
+    "static/media/cover-fullSize.jpg": "/eventify/static/media/cover-fullSize.98ede35519fafc8c7a69.jpg",
+    "static/media/noPageFound-fullSize.jpg": "/eventify/static/media/noPageFound-fullSize.cb5270f1b442f055583e.jpg",
+    "static/media/favPageCover-fullSize.jpg": "/eventify/static/media/favPageCover-fullSize.bccfef1e61a9dd6a83d6.jpg",
+    "static/media/aboutUs-fullSize.jpg": "/eventify/static/media/aboutUs-fullSize.bcd7cc9e925db93c650f.jpg",
+    "static/media/noVenueFinded-FullSize.png": "/eventify/static/media/noVenueFinded-FullSize.6f2796962373ccba7371.png",
+    "static/media/noPageFound-tablet.jpg": "/eventify/static/media/noPageFound-tablet.efa34314625904b220e8.jpg",
+    "static/media/noVenueFinded-Tablet.png": "/eventify/static/media/noVenueFinded-Tablet.731a9f536c73774de286.png",
+    "static/media/noFavourite-fullSize.jpg": "/eventify/static/media/noFavourite-fullSize.fdd5a9e6a6a3ed82e137.jpg",
+    "static/media/aboutUs-tablet.jpg": "/eventify/static/media/aboutUs-tablet.d712794a9c9e3385822a.jpg",
+    "static/media/cover-tablet.jpg": "/eventify/static/media/cover-tablet.d78a8681f50d1fe290fe.jpg",
+    "static/media/aboutUs-movil.jpg": "/eventify/static/media/aboutUs-movil.de0ecbf70a2b228fca87.jpg",
+    "static/media/noPageFound-movil.jpg": "/eventify/static/media/noPageFound-movil.2a0a55f9ace9678c7a93.jpg",
+    "static/media/favPageCover-tablet.jpg": "/eventify/static/media/favPageCover-tablet.1ac08938ffcfab128833.jpg",
+    "static/media/noVenueFinded-Movil.png": "/eventify/static/media/noVenueFinded-Movil.efd00b2dc1bd40308b13.png",
+    "static/media/cover-movil.jpg": "/eventify/static/media/cover-movil.65381c4db91e7c7756f4.jpg",
+    "static/media/noFavourite-tablet.jpg": "/eventify/static/media/noFavourite-tablet.538d8ccbf180aa8e2bc3.jpg",
+    "static/media/favPageCover-movil.jpg": "/eventify/static/media/favPageCover-movil.1ab03f5f6bffd18dec05.jpg",
+    "index.html": "/eventify/index.html",
+    "main.698ca5b8.css.map": "/eventify/static/css/main.698ca5b8.css.map",
+    "main.3b6fc5bc.js.map": "/eventify/static/js/main.3b6fc5bc.js.map",
+    "787.686086aa.chunk.js.map": "/eventify/static/js/787.686086aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.698ca5b8.css",
+    "static/js/main.3b6fc5bc.js"
+  ]
+}
