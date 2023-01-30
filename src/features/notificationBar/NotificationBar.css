@@ -1,0 +1,26 @@
+.divNotification{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 0, 0, 0.406);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p_notification{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 0.9em;
+    margin: 10px;
+}
+@media (min-width: 550px){
+    .divNotification{
+        min-height: 7vh;
+        background-color: rgba(255, 0, 0, 0.506);
+    }
+    .p_notification{
+        font-size: 1.1em;
+    }
+}

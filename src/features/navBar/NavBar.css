@@ -1,0 +1,89 @@
+:root{
+    --backNavBarColor: #0d0d0dcd;
+    --linkColor : white;
+    --mobileNavBarHeight: 300px;
+}
+@keyframes grow {
+    from{height: 0;}
+    to{height: var(--mobileNavBarHeight);}
+}
+@keyframes appear {
+    from{color: var(--backNavBarColor);}
+    to{color: var(--linkColor);}
+}
+.fa-bars, .navigationBar{
+    position: absolute;    
+}
+.fa-bars{
+    top: 10px;
+    right: 10px;
+    color: #BC0202;
+    font-size: 1.6em;
+}
+.navigationBar{
+    display: flex;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 1.15em;
+    row-gap: 10px;
+    background-color: var(--backNavBarColor);
+    padding: 0 10px;
+    height: var(--mobileNavBarHeight);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    border-radius: 12px;
+}
+.navLinks{
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    border-radius: 10px;
+    color: var(--linkColor);
+}
+.navLinks:visited{
+    color: var(--linkColor);
+}
+.active{
+    font-size: 1.25em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+@media (max-width:550px){
+    .navigationBar{
+        animation-name: grow;
+        animation-duration: 0.8s;
+    }
+    .navLinks{
+        animation-name: appear;
+        animation-duration: 1.2s;
+    }
+}
+@media (min-width: 550px){
+    .navigationBar{
+        flex-direction: row;
+        height: auto;
+        background-color: transparent;
+        column-gap: 15px;
+    }
+    .navLinks{
+        background-color: transparent;
+        font-size: 1em;
+    }
+    .active{
+        font-size: 1.1em;
+    }
+}
+@media (min-width: 900px){
+    .navLinks{
+        font-size: 1.2em
+    }
+    .active{
+        font-size: 1.3em;
+    }
+}

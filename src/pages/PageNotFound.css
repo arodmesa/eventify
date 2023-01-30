@@ -1,0 +1,59 @@
+@keyframes growHomeBtn {
+    from{width:100px; font-size: 0.9em;}
+    to{width:110px; font-size: 1em;}
+}
+@keyframes growHomeBtnFullSize {
+    from{width:120px; font-size: 1.1em;}
+    to{width:140px; font-size: 1.2em;}
+}
+.noFoundImgBackgound{
+    background-image: url('../noPageFound-movil.jpg');
+    background-position: center;
+    width: 100vw;
+    height: 300px;
+    margin-top: 75px;
+}
+.goHomeBtn{
+    animation-name: growHomeBtn;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 1em;
+    color: white;
+    /* ff 3.6+ */
+   background:-moz-linear-gradient(270deg, rgba(230, 8, 51, 1) 1%, rgba(31, 38, 44, 1) 4%, rgba(31, 38, 44, 1) 97%, rgba(3, 169, 244, 1) 99%); 
+   /* safari 5.1+,chrome 10+ */
+   background:-webkit-linear-gradient(270deg, rgba(230, 8, 51, 1) 1%, rgba(31, 38, 44, 1) 4%, rgba(31, 38, 44, 1) 97%, rgba(3, 169, 244, 1) 99%);
+   /* opera 11.10+ */
+   background:-o-linear-gradient(270deg, rgba(230, 8, 51, 1) 1%, rgba(31, 38, 44, 1) 4%, rgba(31, 38, 44, 1) 97%, rgba(3, 169, 244, 1) 99%);
+   /* ie 6-9 */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E60833', endColorstr='#03A9F4', GradientType=0 );
+   /* ie 10+ */
+   background:-ms-linear-gradient(270deg, rgba(230, 8, 51, 1) 1%, rgba(31, 38, 44, 1) 4%, rgba(31, 38, 44, 1) 97%, rgba(3, 169, 244, 1) 99%);
+   /* global 94%+ browsers support */
+   background:linear-gradient(270deg, rgba(230, 8, 51, 1) 1%, rgba(31, 38, 44, 1) 4%, rgba(31, 38, 44, 1) 97%, rgba(3, 169, 244, 1) 99%);
+}
+@media (min-width: 551px){
+    .noFoundImgBackgound{
+        background-image: url('../noPageFound-tablet.jpg');
+        height: 500px;
+        margin-top: 40px;
+    }
+}
+@media (min-width: 900px){
+    .noFoundImgBackgound{
+        background-image: url('../noPageFound-fullSize.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 700px;
+    }
+    .goHomeBtn{
+        animation-name: growHomeBtnFullSize;
+        width: 140px;
+        height: 50px;
+        cursor: pointer;
+    }
+}

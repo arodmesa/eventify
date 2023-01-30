@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+.App{
+  overflow-x: hidden; 
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.divColumn{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section1{
+  justify-content: flex-start;
+  background-image: url('./cover-movil.jpg');
+  background-position: center;
+  width: 100vw;
+  min-height: 300px;
+  color: #BC0202;
+  row-gap: 5px;
+  font-weight: bolder;
+}
+.h1_title{
+  margin: 0;
+  margin-top: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.5em;
+  letter-spacing: 7px;
+}
+.sub-title{
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: 'Arial Narrow';
+  text-align: center;
+  font-size: 1em;
+}
+.section2{
+  width: 95%;
+  align-items: flex-start;
+  row-gap: 10px;
+  padding: 10px 0px;
+}
+.p_section2{
+  margin: 0;
+  margin-top: 15px;
+  font-family: fantasy, 'Times New Roman', Times, serif;
+  color: rgba(57, 57, 57, 0.859);
+  letter-spacing: 0.5px;
+  font-size: 1em;
+}
+.h1_section2{
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+.horizontalLine{
+  width: 100vw;
+  border-style: double;
+  border-color: #BC0202;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 15px;
+}
+.h3_footer{
+  font-family: cursive, 'Times New Roman', Times, serif;
+  font-size: 0.9em;
+  margin: 10px;
+  text-align: center;
+}
+.apiLink{
+  color: black;
+  font-style: italic;
+}
+.apiLink:visited{
+  color: black
+}
+@media (min-width:550px){
+  .section1{
+    background-image: url('./cover-tablet.jpg');
+    min-height: 450px;
+  }
+  .h1_title{
+    margin-top: 75px;
+    font-size: 3em;
+  }
+  .sub-title{
+    font-size: 1.1em;
+  }
+  .p_section2{
+    font-size: 1.1em;
+  }
+  .h1_section2{
+    font-size: 1.6em;
+  }
+  .h3_footer{
+    font-size: 1.05em;
+  }
+}
+@media (min-width: 551px){ /*This style is for AboutUs and PageNotFound Componets*/
+  .navBarBackground{
+      height: 55px;
+      width: 100vw;
+      background-color: rgb(98, 98, 98);
+  }
+}
+@media (min-width: 900px){
+  .section1{
+    background-image: url('./cover-fullSize.jpg');
+    height: 60vh;
+  }
+  .h1_title{
+    font-size: 5em;
+    letter-spacing: 12px;
+  }
+  .sub-title{
+    font-size: 1.3em;
+  }
+  .section2{
+    max-width: 1200px;
+    padding: 30px 0;
+  }
+  .p_section2{
+    font-size: 1.45em;
+  }
+  .h1_section2{
+    font-size: 2em;
+  }
+  .h3_footer{
+    font-size: 1.2em;
+  }
+  .navBarBackground{
+    height: 60px;
+  }
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

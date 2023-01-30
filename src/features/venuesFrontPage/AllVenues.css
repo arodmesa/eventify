@@ -1,0 +1,18 @@
+.divGrid{
+    margin-top: 4vh;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+@media (min-width: 900px){
+    .divGrid{
+        grid-template-columns: auto auto;
+    }
+}
+@media (min-width: 1200px){
+    .divGrid{
+        grid-template-columns: auto auto auto;
+    }
+}

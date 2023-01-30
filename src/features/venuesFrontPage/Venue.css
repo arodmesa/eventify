@@ -1,0 +1,69 @@
+.ticketLink{
+    text-decoration: none;
+    color: black;
+}
+.ticketLink:visited{
+    color: black;    
+}
+.divVenue{
+    row-gap: 7px;
+}
+.divImage{
+    position: relative;
+}
+.venueImage{
+    border-radius: 10px;
+    max-width: 90vw;
+}
+.p_label{
+    font-family: 'Bodoni MT';
+    text-align: justify;
+    margin: 0;
+    font-size: 1em;
+}
+.p_bold{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.p_price{
+    font-size: 1.15em;
+}
+.venueLine{
+    width: 75%;
+    border-style: dashed;
+    border-width: 0.1px;
+}
+.fa-heart{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: white;
+    font-size: 1.2em;   
+    transition: color 1s, font-size 0.25s;
+}
+.liked{
+    color: #BC0202;
+}
+
+@media (min-width: 550px){
+    .p_label{
+        font-size: 1.2em;
+    }
+    .p_bold{
+        font-size: 1.4em;
+    }
+    .p_price{
+        font-size: 1.4em;
+    }
+    .venueLine{
+        width: 90%;
+    }    
+}
+@media(min-width: 1000px){
+    .fa-heart:hover{
+        font-size: 1.5em;
+    }
+    .p_label{
+        width: 75%;
+    }
+}

@@ -1,0 +1,34 @@
+.aboutUsBackgroundImg{
+    height: 300px;
+    width: 100vw ;
+    background-image: url('../aboutUs-movil.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.p_about{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
+    text-align: justify;
+    font-size: 0.8em;
+}
+@media (min-width: 500px){
+    .aboutUsBackgroundImg{
+        background-image: url('../aboutUs-tablet.jpg');
+        height: 500px;
+    }
+    .p_about{
+        font-size: 1.1em;
+    }
+}
+@media (min-width: 900px){
+    .aboutUsBackgroundImg{
+        background-image: url('../aboutUs-fullSize.jpg');
+        height: 550px;
+    }
+    .p_about{
+        font-size: 1.5em;
+        width: 60vw;
+        margin-top: 15px;
+    }
+}

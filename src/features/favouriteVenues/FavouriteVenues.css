@@ -1,0 +1,73 @@
+@keyframes growButton{
+    from{font-size: 0.95em;}
+    to{font-size: 1em;}
+}
+@keyframes growButtonFullSize{
+    from{font-size: 1.1em;}
+    to{font-size: 1.2em;}
+}
+.divNoFavourite{
+    background-image: url('../../noFavourite-movil.jpg');
+    background-position: center;
+    width: 100vw;
+    height: 300px;
+    position: relative;
+}
+.h1_nothingSelected{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 120px;
+    text-align: center;
+    color: rgba(77,77,77,255);
+}
+.returnBtn{
+    animation-name: growButton;
+    animation-duration: 0.4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    position: absolute;
+    bottom: 47px;
+    right: calc(50vw - 11px);
+    border: none;
+    background-color: rgba(77,77,77,255);
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 0.95em;
+    padding: 4px;
+}
+.returnBtn:focus {
+    border: none;
+    outline: none;
+}
+@media (min-width: 550px){
+    .divNoFavourite{
+        background-image: url('../../noFavourite-tablet.jpg');
+        height: 500px;
+    }
+    .returnBtn{
+        bottom: 80px;
+        right: calc(50vw + 25px);
+    }
+    .h1_nothingSelected{
+        font-size: 1.6em;
+    }
+}
+@media (min-width: 900px){
+    .divNoFavourite{
+        background-image: url('../../noFavourite-fullSize.jpg');
+        background-repeat: no-repeat;
+        height: 550px;
+    }
+    .returnBtn{
+        bottom: 85px;
+        right: calc(50vw - 6px);
+        animation-name: growButtonFullSize;
+        cursor: pointer;
+    }
+    .h1_nothingSelected{
+        font-size: 2em;
+        width: 200px;
+        margin-left: 65px;
+    }
+}

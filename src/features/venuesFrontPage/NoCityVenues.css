@@ -1,0 +1,35 @@
+.div_orgComponent{
+    margin-top: 25px;
+    color: #BC0202;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.noVenuesImg{
+    background-image: url('./noVenueFinded-Movil.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90vw;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1_NoVenuesFinded{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5em;
+}
+@media (min-width: 550px) {
+    .noVenuesImg{
+        background-image: url('./noVenueFinded-Tablet.png');
+    }
+}
+@media(min-width: 900px){
+    .noVenuesImg{
+        background-image: url('./noVenueFinded-FullSize.png');
+        min-height: 350px;
+    }
+    .h1_NoVenuesFinded{
+        font-size: 2em;
+    }
+}
